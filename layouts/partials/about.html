@@ -1,0 +1,12 @@
+{{ "<!-- about -->" | safeHTML }}
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                <h2 class="section-heading text-center">{{ .Site.Params.about.title }}</h2>
+                <p class="text-faded text-center wow fadeIn">{{ .Site.Params.about.paragraphe1 }}</p>
+                <p class="text-faded text-center wow fadeIn">{{ .Site.Params.about.paragraphe2 }}</p>
+            </div>
+        </div>
+    </div>
+</section>

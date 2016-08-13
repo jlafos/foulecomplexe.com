@@ -1,0 +1,17 @@
+{{ "<!-- Footer section -->" | safeHTML }}
+<footer>
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-4">
+              <p class="text-faded">{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}</p>
+          </div>
+          <div class="col-sm-3 col-sm-offset-5">
+              <ul class="list-inline social-buttons">
+                  {{ range .Site.Params.footer.social }}
+                  <li class="wow bounceIn"><a href="{{ .link }}"><i class="fa fa-2x {{ .icon }}"></i></a></li>
+                  {{ end }}
+              </ul>
+          </div>
+      </div>
+  </div>
+</footer>

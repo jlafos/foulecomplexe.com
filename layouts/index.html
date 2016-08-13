@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+        {{ template "_internal/google_analytics.html" . }}
+        {{ partial "nav.html" . }}
+        {{ partial "hero.html" . }}
+        {{ partial "about.html" . }}
+        {{ partial "equipe.html" . }}
+        {{ partial "stepup_lite.html" . }}
+        <!-- {{ partial "stepup.html" . }} -->
+        {{ partial "contact.html" . }}
+        <!-- {{ partial "modals.html" . }} -->
+        {{ partial "footer.html" . }}
+        {{ partial "js.html" . }}
+    </body>
+</html>

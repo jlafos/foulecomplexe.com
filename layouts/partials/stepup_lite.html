@@ -1,0 +1,16 @@
+{{ "<!-- step-up -->" | safeHTML }}
+<section class="bg-dark bg-stepup" id="stepup">
+
+	<!-- intro -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ with .Site.Params.stepup.headline | markdownify }}{{ . }}{{ end }}</h2>
+				<p class="text-faded wow fadeIn">est une installation <strong>interactive</strong> et <strong>participative</strong><br>
+                conçue par le collectif Foule Complexe.</p>
+                <hr>
+                <p class="text-faded wow fadeIn">Pour <strong>plus d'infos</strong> (plaquette, teaser, fiche technique),<br>contacter Julien ou Nicolas.</p>
+            </div>
+        </div>
+    </div>
+</section>

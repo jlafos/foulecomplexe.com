@@ -1,0 +1,134 @@
+baseurl = "http://foulecomplexe.com/"
+languageCode = "fr"
+title = "Collectif Foule Complexe"
+theme = "hugo-creative-theme"
+
+googleAnalytics = "UA-79504422-1"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Collectif Foule Complexe"
+	description = "Installations – Arts vivants – Interactions"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.png"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Le Foule Complexe"
+
+		[params.navigation.links]
+			about     = "À propos"
+			equipe    = "L'équipe"
+			stepup    = "Step up!"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		subtitle   = "Installations – Arts vivants – Interactions"
+		buttonText = "En savoir plus"
+		logo = "foulecomplexe-logo-blanc-ombre.svg"
+
+	# About section
+	[params.about]
+		title = "Qui sommes-nous ?"
+		paragraphe1 = "Un collectif lyonnais composé de jeunes professionnels des arts vivants (techniciens, artistes) et d'ingénieurs."
+		paragraphe2 = "Une diversité de corps de métiers qui inspire des oeuvres innovantes où le public, la bande son, le décor et l'éclairage entrent en interaction."
+
+	# Equipe section
+	[params.equipe]
+		headline = "L'équipe"
+
+		[[params.equipe.list]]
+			title = "Nicolas Galland"
+			role = "Éclairage & Régie générale"
+			mail = "nicolas"
+			img = "nicolas.svg"
+
+		[[params.equipe.list]]
+			title = "Julien Lafosse"
+			role = "Son & Programmation"
+			mail = "julien"
+			img = "julien.svg"
+
+		[[params.equipe.list]]
+			title = "Robin Drelangue"
+			role = "Production & Diffusion"
+			mail = "robin"
+			img = "robin.svg"
+
+		[[params.equipe.list]]
+		    title = "Louise Sari"
+		    role = "Scénographie & Graphisme"
+		    img = "louise.svg"
+
+	# Stepup section
+	[params.stepup]
+		headline = "_step up!_"
+		description = "est une __installation interactive__<br>qui permet aux participants de __composer à plusieurs__ <br>l'__éclairage__ d'un lieu et une __ambiance musicale__ <br>en montant sur des __dalles lumineuses__"
+
+		[[params.stepup.btnmodal]]
+			text = "+ d'infos"
+			modalID = 4
+
+		[[params.stepup.btndl]]
+			text = "Plaquette (fr)"
+			link = "dl/step-up-plaquette-web-FR.pdf"
+
+		[[params.stepup.btndl]]
+			text = "leaflet (en)"
+			link = "dl/step-up-leaflet-web-EN.pdf"
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        buttonText = "Fermer"
+
+	# Contact section
+	[params.contact]
+		headline = "Nous contacter"
+
+		[[params.contact.list]]
+			title   = "Collectif Foule Complexe"
+			content = "Association loi de 1901<br>__SIRET__ 811 081 272 00015<br>__APE__ 9001 Z"
+
+		[[params.contact.list]]
+			title   = "Siège social"
+			content = "28 Rue de l'Arbre Sec<br>69001 LYON<br>FRANCE"
+
+		[[params.contact.list]]
+			title   = "Bureau"
+			content = "__Présidente__ Lucie Léger<br>__Trésorière__ Fanette Lermé</p><p class=\"mail\">contact <i class=\"text-muted\">(at)</i> foulecomplexe.com</p>"
+
+# Footer section
+	[params.footer]
+        enable = true
+		copyright = "Juin 2016"
+
+		[[params.footer.social]]
+			icon = "fa-facebook-square"
+			link = "https://www.facebook.com/foulecomplexe/"
+
+		[[params.footer.social]]
+			icon = "fa-twitter-square"
+			link = "https://twitter.com/foule_complexe"
+
+		[[params.footer.social]]
+			icon = "fa-vimeo-square"
+			link = "https://vimeo.com/foulecomplexe"
