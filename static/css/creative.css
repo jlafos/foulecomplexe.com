@@ -589,3 +589,8 @@ footer ul.quicklinks {
 .mail {
     color: #e91e63;
 }
+
+/* wow.js visibility */
+.wow {
+    visibility: hidden;
+}

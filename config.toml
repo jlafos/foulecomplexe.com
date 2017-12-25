@@ -35,7 +35,7 @@ googleAnalytics = "UA-79504422-1"
 		[params.navigation.links]
 			about     = "À propos"
 			equipe    = "L'équipe"
-			stepup    = "Step up!"
+			stepup    = "Projets"
 			contact   = "Contact"
 
 
@@ -68,16 +68,6 @@ googleAnalytics = "UA-79504422-1"
 			mail = "julien"
 			img = "julien.svg"
 
-		[[params.equipe.list]]
-			title = "Robin Drelangue"
-			role = "Production & Diffusion"
-			mail = "robin"
-			img = "robin.svg"
-
-		[[params.equipe.list]]
-		    title = "Louise Sari"
-		    role = "Scénographie & Graphisme"
-		    img = "louise.svg"
 
 	# Stepup section
 	[params.stepup]
@@ -106,7 +96,7 @@ googleAnalytics = "UA-79504422-1"
 
 		[[params.contact.list]]
 			title   = "Collectif Foule Complexe"
-			content = "Association loi de 1901<br>__SIRET__ 811 081 272 00015<br>__APE__ 9001 Z"
+			content = "Association loi de 1901<br>__SIRET__ 811 081 272 00023<br>__APE__ 9001 Z"
 
 		[[params.contact.list]]
 			title   = "Siège social"
@@ -119,7 +109,7 @@ googleAnalytics = "UA-79504422-1"
 # Footer section
 	[params.footer]
         enable = true
-		copyright = "Juin 2016"
+		copyright = "Nov 2016"
 
 		[[params.footer.social]]
 			icon = "fa-facebook-square"
